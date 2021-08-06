@@ -530,7 +530,7 @@ Skyline::Skyline(int n, int d, int k, int m, int l, char alg, std::string data_l
     std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
     int total_time = (std::chrono::duration_cast<std::chrono::milliseconds>(end-begin).count());
     std::cout << "Total no. leaf nodes "  << no_leaf_nodes << std::endl;
-    std::cout << "Total time "  << total_time << "s" << std::endl;
+    std::cout << "Total time "  << total_time << "ms" << std::endl;
 }
 
 
